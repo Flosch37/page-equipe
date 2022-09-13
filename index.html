@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+	<title>monBlog</title>
+</head>
+
+
+
+<header class="topbar">
+	<nav>
+		<a href="index.html" class="active" title="Accueil">Accueil</a>
+		<a href="equipe.html"   title="L'équipe">L'équipe</a>
+		<a href="panier.html" title="Votre panier">Votre panier</a>
+	</nav>
+		<div class="site-Title">
+			<a href="index.html"><h1>Notre boutique</h1></a>
+		</div>
+		<div class="icone">
+			<a href="panier.html"><img id="icone-panier" alt="panier" title="panier" src="../img/panier.png"></a>
+		</div>
+	</div>
+</header>
+
+	<div class="banniere">
+        <section class="slider-wrapper">
+ 
+            <button class="slide-arrow" id="slide-arrow-prev">
+              &#8249;
+            </button>
+             
+            <button class="slide-arrow" id="slide-arrow-next">
+              &#8250;
+            </button>
+             
+            <ul class="slides-container" id="slides-container">
+              <li class="slide"></li>
+              <li class="slide"></li>
+              <li class="slide"></li>
+              <li class="slide"></li>
+            </ul>
+          </section>
+	</div>
+    <body>
+	<div class="body">
+		<main class="main">
+			<div class="container">
+				<article class="article">
+				<!-- <a href="../img/photo4.jpg" class="article-img"><img src="../img/photo4.jpg" title="photo-article"/></a> -->
+				<!-- <div class="article-date">Publié le 14 Juin 2022</div> -->
+				<h1 class="article-title">Découvrez l'équipe</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            <div class="button">
+                <button onclick="casser()">Supprimer</button>
+                <button onclick="modify()">Modification</button>
+                <button onclick="addtask()">Ajout</button>
+            </div>
+
+                
+          <div class="lesImages">
+              <div class="image-card" id="anthony">
+                  <img src="mon_image.png" alt="img">
+                  <h2 class="membresEquipe1">Anthony</h2>
+              
+                  <h3 class="h3">poste</h3>
+                  <p class="lesPostes">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Al</p>
+              </div>
+              <div class="image-card" id="florian">
+                <img src="mon_image.png" alt="img">
+                <h2 class="membresEquipe2">Florian</h2>
+                
+                <h3 class="h3">poste</h3>
+                <p class="lesPostes">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Al</p>
+              </div>
+              <div class="image-card" id="giovanni">
+                <img src="mon_image.png" alt="img">
+                <h2 class="membresEquipe3">Giovanni</h2> 
+                
+                <h3 class="h3">poste</h3>
+                <p class="lesPostes">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Al</p>
+              </div>
+           </div>
+				
+				</article>
+			</div>
+		</main>
+
+		
+		</ul>
+		</aside>
+	</div>
+<footer class="footer">
+</footer>
+
+<script src="script.js"></script>
+</body>
+
+</html>
